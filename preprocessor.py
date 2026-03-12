@@ -37,4 +37,3 @@ def preprocess(data):
     df['minute'] = df['dates'].dt.minute
     df['month_num']=df['dates'].dt.month
     return df
-)
