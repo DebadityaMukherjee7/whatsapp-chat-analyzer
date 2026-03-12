@@ -37,6 +37,4 @@ def preprocess(data):
     df['minute'] = df['dates'].dt.minute
     df['month_num']=df['dates'].dt.month
     return df
-f=open('WhatsApp Chat with Asmit.txt','r',encoding='utf-8')
-data=f.read()
-dataframe=preprocess(data)
+)
