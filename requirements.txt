@@ -9,7 +9,6 @@ pandas
 emoji
 langchain_google_genai
 langchain_core
-re
 
 
 
