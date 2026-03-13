@@ -6,11 +6,11 @@ emoji
 wordcloud
 urlextract
 pandas
-collections
 emoji
 langchain_google_genai
 langchain_core.messages
 os
 dotenv
 re
+
 
