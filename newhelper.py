@@ -9,7 +9,6 @@ import emoji
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
 import os
-from dotenv import load_dotenv
 def fetch_stats(selected_user, df):
     if selected_user == "Overall":
         links=[]
@@ -219,8 +218,8 @@ def plot_most_busy_month(selected_user,df):
 
 
 
-load_dotenv()
-api_key = os.getenv("GOOGLE_API_KEY")
+
+api_key = st.secrets["GOOGLE_API_KEY"]
 def gemini_character_analysis(df, selected_user="Overall"):
    
     if selected_user == "Overall":
