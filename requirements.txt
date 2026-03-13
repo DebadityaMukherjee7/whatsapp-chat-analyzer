@@ -8,9 +8,10 @@ urlextract
 pandas
 emoji
 langchain_google_genai
-langchain_core.messages
+langchain_core
 os
 dotenv
 re
+
 
 
