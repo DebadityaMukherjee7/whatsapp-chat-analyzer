@@ -4,7 +4,7 @@ matplotlib
 seaborn
 emoji 
 wordcloud
-urlextrac
+urlextract
 pandas
 collections
 emoji
@@ -13,3 +13,4 @@ langchain_core.messages
 os
 dotenv
 re
+
