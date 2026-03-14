@@ -29,7 +29,8 @@ if file is not None:
 if st.session_state.dataframe is not None:
     st.dataframe(st.session_state.dataframe)
     unique_users = st.session_state.dataframe['users'].unique().tolist()
-    unique_users.remove('group_notification')  
+    if 'group_notification' in unique_users:
+          unique_users.remove('group_notification')  
     unique_users.sort()  
     unique_users.append("Overall")  
 
